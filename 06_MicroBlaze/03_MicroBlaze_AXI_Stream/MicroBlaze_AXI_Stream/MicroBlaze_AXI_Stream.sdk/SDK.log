@@ -1,0 +1,23 @@
+12:42:05 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:42:06 INFO  : XSDB server has started successfully.
+12:48:54 INFO  : Project 'd_microblaze_wrapper_hw_platform_0' created. You can now create BSPs and application projects targeting this hardware platform.
+07:50:50 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+07:50:52 INFO  : XSDB server has started successfully.
+07:50:58 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1504784986968,  Project:1503765455633
+07:50:58 INFO  : Project d_microblaze_wrapper_hw_platform_0's source hardware specification located at Z:\work\git\LabVIEW_Fpga\06_MicroBlaze\03_MicroBlaze_AXI_Stream\MicroBlaze_AXI_Stream\MicroBlaze_AXI_Stream.sdk\d_microblaze_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+07:51:02 INFO  : Copied contents of Z:\work\git\LabVIEW_Fpga\06_MicroBlaze\03_MicroBlaze_AXI_Stream\MicroBlaze_AXI_Stream\MicroBlaze_AXI_Stream.sdk\d_microblaze_wrapper.hdf into \d_microblaze_wrapper_hw_platform_0\system.hdf.
+07:51:03 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+07:51:20 INFO  : 
+07:51:22 INFO  : Updating hardware inferred compiler options for axi_test.
+07:51:22 INFO  : Clearing existing target manager status.
+21:01:32 INFO  : The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace.
+21:46:29 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+02:26:01 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+02:26:02 INFO  : XSDB server has started successfully.
+02:27:15 INFO  : No changes in MSS file content so not generating sources.
+17:31:43 INFO  : The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace.
+20:57:26 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+20:57:28 INFO  : XSDB server has started successfully.
+11:56:58 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:57:00 INFO  : XSDB server has started successfully.

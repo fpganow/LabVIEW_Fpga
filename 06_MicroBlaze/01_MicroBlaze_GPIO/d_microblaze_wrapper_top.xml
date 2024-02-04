@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- National Instruments recommends that you do not change this CLIP declaration file outside of the Configure Component-Level IP wizard. You can modify this declaration file on the Component-Level IP page of the FPGA Target Properties dialog box. -->
+
+
+
+<CLIPDeclaration Name="d_microblaze_wrapper_top">
+  <FormatVersion>4.3</FormatVersion>
+  <Description/>
+ 	<TopLevelEntityAndArchitecture>
+		  <SynthesisModel>
+			   <Entity>d_microblaze_wrapper_top</Entity>
+			   <Architecture>STRUCTURE</Architecture>
+		  </SynthesisModel>
+    <SimulationModel>
+		   <Entity>d_microblaze_wrapper_top</Entity>
+		   <Architecture>STRUCTURE</Architecture>
+</SimulationModel>
+ 	</TopLevelEntityAndArchitecture>
+  
+  <SupportedDeviceFamilies>Kintex-7
+</SupportedDeviceFamilies>
+  
+  <InterfaceList>
+    <Interface Name="LabVIEW">
+      <InterfaceType>LabVIEW</InterfaceType>
+      <SignalList>
+        <Signal Name="clock_rtl">
+          <HDLName>clock_rtl</HDLName>
+          <HDLType>STD_LOGIC</HDLType>
+          <Direction>ToCLIP</Direction>
+          <SignalType>clock</SignalType>
+          <Description/>
+          <DataType>
+            <Boolean/>
+  </DataType>
+  
+          <CyclesRequiredBeforeAsynchronousResetClears>0</CyclesRequiredBeforeAsynchronousResetClears>
+          <FreqInHertz>
+            <Max>200.000000M</Max>
+            <Min>1.000000M</Min>
+</FreqInHertz>
+
+</Signal>
+        <Signal Name="gpio_rtl_0_tri_o">
+          <HDLName>gpio_rtl_0_tri_o</HDLName>
+          <HDLType>STD_LOGIC_VECTOR ( 31 downto 0 )</HDLType>
+          <Direction>FromCLIP</Direction>
+          <SignalType>data</SignalType>
+          <Description/>
+          <DataType>
+            <U32/>
+  </DataType>
+          <RequiredClockDomain>clock_rtl</RequiredClockDomain>
+          <UseInLabVIEWSingleCycleTimedLoop>Required</UseInLabVIEWSingleCycleTimedLoop></Signal>
+        <Signal Name="gpio_rtl_tri_i">
+          <HDLName>gpio_rtl_tri_i</HDLName>
+          <HDLType>STD_LOGIC_VECTOR ( 31 downto 0 )</HDLType>
+          <Direction>ToCLIP</Direction>
+          <SignalType>data</SignalType>
+          <Description/>
+          <DataType>
+            <U32/>
+  </DataType>
+          <RequiredClockDomain>clock_rtl</RequiredClockDomain>
+          <UseInLabVIEWSingleCycleTimedLoop>Required</UseInLabVIEWSingleCycleTimedLoop></Signal>
+      </SignalList>
+    </Interface>
+    <Interface Name="Fabric">
+      <InterfaceType>Fabric</InterfaceType>
+      <SignalList>
+        <Signal Name="reset_rtl">
+          <HDLName>reset_rtl</HDLName>
+          <HDLType>STD_LOGIC</HDLType>
+          <Direction>ToCLIP</Direction>
+          <SignalType>reset</SignalType>
+          <Description/>
+          <DataType>
+            <Boolean/>
+  </DataType>
+  </Signal>
+  </SignalList>
+</Interface>
+  </InterfaceList>
+  <ImplementationList>
+    <Path Name="d_microblaze_wrapper_top.vhd">
+      <TopLevel/>
+      <MD5>e5389a3c60df29ae14638f6903cf036f</MD5>
+      <SimulationFileList>
+        <SimulationModelType>Same as synthesis</SimulationModelType>
+    </SimulationFileList> 
+</Path>
+    <Path Name="MicroBlaze_GPIO\checkpoint_1.dcp">
+  
+      <MD5>2b83242c667baee31a61b7c8506c8bf0</MD5>
+      <SimulationFileList>
+        <SimulationModelType>Exclude from simulation model</SimulationModelType>
+    </SimulationFileList> 
+</Path>
+</ImplementationList>
+  <NumberOfDCMsNeeded>0</NumberOfDCMsNeeded>
+  <NumberOfMMCMsNeeded>0</NumberOfMMCMsNeeded>
+  <NumberOfBufGsNeeded>0</NumberOfBufGsNeeded>
+  
+
+
+</CLIPDeclaration>

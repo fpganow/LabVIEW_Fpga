@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# 
+# Start of session at: Sat Sep 02 18:25:36 2017
+# Process ID: 2500
+# Current directory: Z:/work/git/LabVIEW_Fpga/06_MicroBlaze/03_MicroBlaze_AXI_Stream/MicroBlaze_AXI_Stream/MicroBlaze_AXI_Stream.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: Z:/work/git/LabVIEW_Fpga/06_MicroBlaze/03_MicroBlaze_AXI_Stream/MicroBlaze_AXI_Stream/MicroBlaze_AXI_Stream.sdk/webtalk/webtalk.log
+# Journal file: Z:/work/git/LabVIEW_Fpga/06_MicroBlaze/03_MicroBlaze_AXI_Stream/MicroBlaze_AXI_Stream/MicroBlaze_AXI_Stream.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

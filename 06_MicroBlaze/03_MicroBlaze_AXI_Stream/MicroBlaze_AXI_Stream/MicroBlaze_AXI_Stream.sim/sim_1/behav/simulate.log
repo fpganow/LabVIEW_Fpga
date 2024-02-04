@@ -1,0 +1,4 @@
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+Note: Block Memory Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior.
+Time: 1305 ns  Iteration: 8  Process: /d_microblaze_wrapper_tb/uut/d_microblaze_i/microblaze_0_local_memory/lmb_bram/U0/native_mem_map_module/mem_map_module/line__3418  File: Z:/work/git/LabVIEW_Fpga/06_MicroBlaze/03_MicroBlaze_AXI_Stream/MicroBlaze_AXI_Stream/MicroBlaze_AXI_Stream.ip_user_files/ipstatic/blk_mem_gen_v8_3/simulation/blk_mem_gen_v8_3.vhd

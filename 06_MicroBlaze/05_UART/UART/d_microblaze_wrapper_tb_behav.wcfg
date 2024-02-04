@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="d_microblaze_wrapper_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="d_microblaze_wrapper_tb" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5095680272fs"></ZoomStartTime>
+      <ZoomEndTime time="183444489796fs"></ZoomEndTime>
+      <Cursor1Time time="13775510000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="7" />
+   <wvobject db_ref_id="1" fp_name="/d_microblaze_wrapper_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/d_microblaze_wrapper_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/d_microblaze_wrapper_tb/gpio_in" type="array">
+      <obj_property name="ElementShortName">gpio_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/d_microblaze_wrapper_tb/gpio_out" type="array">
+      <obj_property name="ElementShortName">gpio_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/d_microblaze_wrapper_tb/rxd" type="logic">
+      <obj_property name="ElementShortName">rxd</obj_property>
+      <obj_property name="ObjectShortName">rxd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/d_microblaze_wrapper_tb/txd" type="logic">
+      <obj_property name="ElementShortName">txd</obj_property>
+      <obj_property name="ObjectShortName">txd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/d_microblaze_wrapper_tb/clock_period" type="other">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+</wave_config>

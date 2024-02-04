@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4_AR67478_AR66782_AR66772_AR66092_AR65813_ar68397_cr964221_2015_4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412968 on Wed Nov 18 10:19:19 MST 2015
+# Start of session at: Thu Sep 21 19:12:28 2017
+# Process ID: 5664
+# Current directory: Z:/work/git/LabVIEW_Fpga/06_MicroBlaze/03_MicroBlaze_AXI_Stream/MicroBlaze_AXI_Stream/MicroBlaze_AXI_Stream.runs/synth_1
+# Command line: vivado.exe -log d_microblaze_wrapper.vds -mode batch -messageDb vivado.pb -notrace -source d_microblaze_wrapper.tcl
+# Log file: Z:/work/git/LabVIEW_Fpga/06_MicroBlaze/03_MicroBlaze_AXI_Stream/MicroBlaze_AXI_Stream/MicroBlaze_AXI_Stream.runs/synth_1/d_microblaze_wrapper.vds
+# Journal file: Z:/work/git/LabVIEW_Fpga/06_MicroBlaze/03_MicroBlaze_AXI_Stream/MicroBlaze_AXI_Stream/MicroBlaze_AXI_Stream.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source d_microblaze_wrapper.tcl -notrace

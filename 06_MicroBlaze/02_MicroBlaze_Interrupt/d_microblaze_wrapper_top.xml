@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- National Instruments recommends that you do not change this CLIP declaration file outside of the Configure Component-Level IP wizard. You can modify this declaration file on the Component-Level IP page of the FPGA Target Properties dialog box. -->
+
+
+
+<CLIPDeclaration Name="d_microblaze_wrapper_top">
+  <FormatVersion>4.3</FormatVersion>
+  <Description/>
+ 	<TopLevelEntityAndArchitecture>
+		  <SynthesisModel>
+			   <Entity>d_microblaze_wrapper_top</Entity>
+			   <Architecture>STRUCTURE</Architecture>
+		  </SynthesisModel>
+    <SimulationModel>
+		   <Entity>d_microblaze_wrapper_top</Entity>
+		   <Architecture>STRUCTURE</Architecture>
+</SimulationModel>
+ 	</TopLevelEntityAndArchitecture>
+  
+  <SupportedDeviceFamilies>Kintex-7
+</SupportedDeviceFamilies>
+  
+  <InterfaceList>
+    <Interface Name="LabVIEW">
+      <InterfaceType>LabVIEW</InterfaceType>
+      <SignalList>
+        <Signal Name="clock_rtl">
+          <HDLName>clock_rtl</HDLName>
+          <HDLType>STD_LOGIC</HDLType>
+          <Direction>ToCLIP</Direction>
+          <SignalType>clock</SignalType>
+          <Description/>
+          <DataType>
+            <Boolean/>
+  </DataType>
+  
+          <CyclesRequiredBeforeAsynchronousResetClears>0</CyclesRequiredBeforeAsynchronousResetClears>
+          <FreqInHertz>
+            <Max>200.000000M</Max>
+            <Min>1.000000M</Min>
+</FreqInHertz>
+
+</Signal>
+        <Signal Name="gpi_0_tri_i">
+          <HDLName>gpi_0_tri_i</HDLName>
+          <HDLType>STD_LOGIC_VECTOR ( 31 downto 0 )</HDLType>
+          <Direction>ToCLIP</Direction>
+          <SignalType>data</SignalType>
+          <Description/>
+          <DataType>
+            <U32/>
+  </DataType>
+          <RequiredClockDomain>clock_rtl</RequiredClockDomain>
+          <UseInLabVIEWSingleCycleTimedLoop>Required</UseInLabVIEWSingleCycleTimedLoop></Signal>
+        <Signal Name="gpo_1_tri_o">
+          <HDLName>gpo_1_tri_o</HDLName>
+          <HDLType>STD_LOGIC_VECTOR ( 31 downto 0 )</HDLType>
+          <Direction>FromCLIP</Direction>
+          <SignalType>data</SignalType>
+          <Description/>
+          <DataType>
+            <U32/>
+  </DataType>
+          <RequiredClockDomain>clock_rtl</RequiredClockDomain>
+          <UseInLabVIEWSingleCycleTimedLoop>Required</UseInLabVIEWSingleCycleTimedLoop></Signal>
+        <Signal Name="intr">
+          <HDLName>intr</HDLName>
+          <HDLType>STD_LOGIC_VECTOR ( 1 downto 0 )</HDLType>
+          <Direction>ToCLIP</Direction>
+          <SignalType>data</SignalType>
+          <Description/>
+          <DataType>
+            <FXP>
+              <WordLength>2</WordLength>
+              <IntegerWordLength>2</IntegerWordLength>
+              <Unsigned/>
+</FXP>
+  </DataType>
+          <RequiredClockDomain>clock_rtl</RequiredClockDomain>
+          <UseInLabVIEWSingleCycleTimedLoop>Required</UseInLabVIEWSingleCycleTimedLoop></Signal>
+        <Signal Name="reset_rtl">
+          <HDLName>reset_rtl</HDLName>
+          <HDLType>STD_LOGIC</HDLType>
+          <Direction>ToCLIP</Direction>
+          <SignalType>data</SignalType>
+          <Description/>
+          <DataType>
+            <Boolean/>
+  </DataType>
+          <RequiredClockDomain>clock_rtl</RequiredClockDomain>
+          <UseInLabVIEWSingleCycleTimedLoop>Required</UseInLabVIEWSingleCycleTimedLoop></Signal>
+      </SignalList>
+    </Interface>
+  </InterfaceList>
+  <ImplementationList>
+    <Path Name="d_microblaze_wrapper_top.vhd">
+      <TopLevel/>
+      <MD5>82110d927cb77952e7bff2582f067ba4</MD5>
+      <SimulationFileList>
+        <SimulationModelType>Same as synthesis</SimulationModelType>
+    </SimulationFileList> 
+</Path>
+    <Path Name="MicroBlaze_Interrupt\checkpoint_13.dcp">
+  
+      <MD5>86b9a2d1e88664dec0734eebf0a88344</MD5>
+      <SimulationFileList>
+        <SimulationModelType>Exclude from simulation model</SimulationModelType>
+    </SimulationFileList> 
+</Path>
+</ImplementationList>
+  <NumberOfDCMsNeeded>0</NumberOfDCMsNeeded>
+  <NumberOfMMCMsNeeded>0</NumberOfMMCMsNeeded>
+  <NumberOfBufGsNeeded>0</NumberOfBufGsNeeded>
+  
+
+
+</CLIPDeclaration>
